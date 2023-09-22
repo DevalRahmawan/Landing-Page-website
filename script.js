@@ -14,6 +14,11 @@ function isNumber(str) {
     return !isNaN(str);
 }
 
+// Function untuk memeriksa apakah checkbox status dicentang
+function checkboxIsChecked() {
+    return document.getElementById("status").checked;
+}
+
 // Function untuk melakukan validasi data form
 function validateFormData(data) {
     if (
